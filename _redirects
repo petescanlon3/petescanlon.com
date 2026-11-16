@@ -1,0 +1,5 @@
+# collectivememory.studio is a second address for this site: send every visit to www.petescanlon.com.
+http://collectivememory.studio/*      https://www.petescanlon.com/:splat  301!
+https://collectivememory.studio/*     https://www.petescanlon.com/:splat  301!
+http://www.collectivememory.studio/*  https://www.petescanlon.com/:splat  301!
+https://www.collectivememory.studio/* https://www.petescanlon.com/:splat  301!

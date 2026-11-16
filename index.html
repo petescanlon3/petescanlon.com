@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pete Scanlon — Creative Strategy | Sports + Entertainment</title>
+  <meta name="description" content="Pete Scanlon is a fan-focused strategy director helping brands understand fans and show up meaningfully in sports culture.">
+  <script>
+    // Decide the scroll model before first paint so the layout never jumps.
+    (function (d) {
+      var h = matchMedia("(min-width: 1024px) and (min-height: 600px) and (hover: hover) and (pointer: fine)").matches;
+      var rm = matchMedia("(prefers-reduced-motion: reduce)").matches || /[?&]motion=reduce\b/.test(location.search);
+      // Enter once per visit: coming back from a case study goes straight in.
+      var entered = false; try { entered = sessionStorage.getItem("entered") === "1"; } catch (e) {}
+      d.className += " js" + (entered ? "" : " is-gated") + (h && !rm ? " is-h" : " is-v") + (rm ? " is-rm" : "");
+      if (/^(localhost|127\.0\.0\.1)$/.test(location.hostname) || /[?&]dev\b/.test(location.search)) d.className += " dev";
+    })(document.documentElement);
+  </script>
+  <link rel="canonical" href="https://www.petescanlon.com/">
+  <!-- Link previews (iMessage, Slack, LinkedIn, etc.) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.petescanlon.com/">
+  <meta property="og:title" content="Pete Scanlon — Creative Strategy | Sports + Entertainment">
+  <meta property="og:description" content="Pete Scanlon is a fan-focused strategy director helping brands understand fans and show up meaningfully in sports culture.">
+  <meta property="og:image" content="https://www.petescanlon.com/assets/img/site/share.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Indiana's Fernando Mendoza stretching full length with the ball, shown as a motion sequence.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://www.petescanlon.com/assets/img/site/share.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@900&family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/site.css">
+</head>
+<body class="home">
+  <a class="skip" href="#about">Skip to content</a>
+
+  <header class="topbar">
+    <a class="brand" href="/#home" data-jump>Pete<br>Scanlon</a>
+    <nav class="menu" id="menu" aria-label="Sections">
+      <ul>
+        <li><a href="/#about" data-jump data-section="about">About</a></li>
+        <li><a href="/#work" data-jump data-section="work">Work</a></li>
+        <li><a href="/#experience" data-jump data-section="experience">Experience</a></li>
+        <li><a href="/#connect" data-jump data-section="connect">Connect</a></li>
+      </ul>
+    </nav>
+    <div class="utils">
+      <button class="feedback-toggle" type="button" hidden></button>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+    </div>
+  </header>
+
+  <!-- Enter: one click before the journey, so sound can play from the start (browsers allow audio only after a click or tap). -->
+  <div class="gate" id="gate"><button class="gate-enter" type="button">Enter</button></div>
+  <div class="viewport" id="viewport">
+    <main class="track" id="track">
+
+      <!-- 1. Opening identity -->
+      <section class="panel panel--opening" id="home" aria-label="Introduction">
+        <div class="slide">
+          <div class="opening-title">
+            <h1 class="opening-name">Pete<br><span class="opening-last">Scanlon</span></h1>
+            <p class="opening-sub">Creative Strategy | Sports + Entertainment</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. Bio -->
+      <section class="panel panel--bio" id="about" aria-labelledby="bio-title">
+        <div class="slide">
+          <h2 class="bio-title" id="bio-title">The Memory<br>Machine</h2>
+          <figure class="bio-photo">
+            <img src="/assets/img/site/memory-machine.webp" width="1100" height="1100"
+                 alt="Pete as a young boy on a beach boardwalk in a Red Sox cap, holding a lacrosse stick and grinning.">
+            <figcaption>Pete circa 1991</figcaption>
+          </figure>
+          <div class="bio-copy">
+            <p>I'm a fan-focused strategy director who helps brands understand fans and show up meaningfully in sports culture. I've had the pleasure of being embedded inside companies like Google, YouTube, and Bleacher Report, partnering with agencies like Momentum, Game Seven, and 72andSunny, and helping brands shape partnerships with the NHL, NCAA, Aston Martin F1 and more.</p>
+            <p>I believe sports is the world's most powerful <strong class="cm-phrase">collective memory</strong> machine. Few things make people care so deeply, while connecting us to something bigger than ourselves. Yet today, so much of the landscape treats that passion as standard inventory instead of something sacred.</p>
+            <p>My work is about helping brands earn a place in the memories sports creates. Not by interrupting fandom, but by giving something back to it.</p>
+            <img class="bio-signature" src="/assets/img/site/signature.webp" width="494" height="349" alt="Pete">
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. Collective Memory -->
+      <section class="panel panel--memory" id="collective-memory" aria-labelledby="cm-title">
+        <div class="memory-stage">
+          <div class="cm-grid" aria-hidden="true"></div>
+          <h2 class="cm-title" id="cm-title"><span>Collective</span> <span>Memory</span></h2>
+          <p class="cm-question">How might we earn a place in the memories sports creates?</p>
+        </div>
+      </section>
+
+      <!-- 4. Ways to work with Pete -->
+      <section class="panel panel--ways" id="ways" aria-labelledby="ways-title">
+        <div class="slide">
+          <h2 class="ways-title" id="ways-title">Ways to work<br> with Pete</h2>
+          <div class="ways-grid">
+            <article class="way">
+              <p class="way-num" aria-hidden="true">01</p>
+              <h3>Fan, Team + League Insight</h3>
+              <p class="way-desc">Uncovering the cultural, behavioral, and market truths that drive modern fandom. I translate audience insights and landscape dynamics into actionable intelligence.</p>
+              <h4>Example deliverables</h4>
+              <ul>
+                <li>Fan Insights + Segmentation</li>
+                <li>Cultural and Subculture Insights + Trends</li>
+                <li>Competitive Audits + Analysis</li>
+                <li>Surveys, Interviews + Focus Groups</li>
+              </ul>
+            </article>
+            <article class="way">
+              <p class="way-num" aria-hidden="true">02</p>
+              <h3>Brand Strategy</h3>
+              <p class="way-desc">Defining what an organization stands for, its core values and place in the competitive landscape. This centers the strategy on what a brand does best and what its audiences value.</p>
+              <h4>Example deliverables</h4>
+              <ul>
+                <li>Mission, Vision + Purpose</li>
+                <li>Brand Narrative + Archetype</li>
+                <li>Brand + Partnership Positioning</li>
+                <li>Sponsorship Strategy + Investment</li>
+              </ul>
+            </article>
+            <article class="way">
+              <p class="way-num" aria-hidden="true">03</p>
+              <h3>Creative Strategy</h3>
+              <p class="way-desc">Defining how a brand or partnership should show up in the world via campaigns, actions, and initiatives. I create a focused space for imagination through a fan-first approach and a clear definition of the challenge.</p>
+              <h4>Example deliverables</h4>
+              <ul class="two-col">
+                <li>Creative Briefs</li>
+                <li>Content + Campaign Strategy</li>
+                <li>Brand Platforms</li>
+                <li>Partnership Activation + Roadmaps</li>
+                <li>Brand Actions Playbook</li>
+                <li>Experiential + Event Strategy</li>
+                <li>Influencer + Earned Strategy</li>
+                <li>Integrated Campaigns + Amplification</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. The work: index of 10 projects -->
+      <section class="panel panel--work" id="work" aria-labelledby="work-title">
+        <h2 class="work-title" id="work-title">The Work</h2>
+        <ol class="work-grid" id="work-grid"></ol>
+        <noscript><p>Enable JavaScript to browse case studies, or email <a href="mailto:pete@instead.studio">pete@instead.studio</a>.</p></noscript>
+      </section>
+
+      <!-- 6. Category experience -->
+      <section class="panel panel--experience" id="experience" aria-labelledby="exp-title">
+        <div class="slide">
+          <h2 class="exp-title" id="exp-title">Category<br> Experience</h2>
+          <div class="exp-grid">
+            <div><h3>B2B Tech</h3><ul><li>Android</li><li>AWS</li><li>DocuSign</li><li>Intel</li><li>Intrinsic AI</li><li>Oracle</li></ul></div>
+            <div><h3>Consumer Tech</h3><ul><li>Canva</li><li>CapCut</li><li>Google</li><li>Meta</li><li>Waymo</li><li>Wing</li><li>Zillow</li></ul></div>
+            <div><h3>CPG</h3><ul><li>BodyArmor</li><li>Espolón</li><li>Glenfiddich</li><li>MadeGood</li><li>Spindrift</li><li>Tullamore DEW</li><li>Wild Turkey</li></ul></div>
+            <div><h3>Entertainment</h3><ul><li>Amazon Prime</li><li>Dish Network</li><li>Google Play Music</li><li>Sling TV</li><li>YouTube</li></ul></div>
+            <div class="exp-spacer" aria-hidden="true"></div>
+            <div><h3>Hardware</h3><ul><li>Google Nest</li><li>Google Pixel</li><li>Nvidia Shield</li><li>Samsung Galaxy</li></ul></div>
+            <div><h3>Lifestyle</h3><ul><li>Amex</li><li>Dunkin’</li><li>Ram Trucks</li><li>Starbucks</li><li>Ugg for Men</li><li>Ulta Beauty</li></ul></div>
+            <div><h3>Sports</h3><ul><li>Bleacher Report</li><li>F1</li><li>MLB</li><li>NBA</li><li>NHL</li><li>San Jose Quakes</li></ul></div>
+            <div><h3>Telecom</h3><ul><li>T-Mobile</li><li>Verizon</li><li>Visible Wireless</li></ul></div>
+            <div><h3>Travel</h3><ul><li>Atlas Obscura</li><li>Carnival Cruise Line</li><li>Destination Toronto</li></ul></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7. Kind words: cards built from SITE.testimonials (content.js) -->
+      <section class="panel panel--kind" id="kind-words" aria-labelledby="kind-title">
+        <div class="slide">
+          <h2 class="kind-title" id="kind-title">Kind Words</h2>
+          <div class="kind" id="kind"></div>
+        </div>
+      </section>
+
+      <!-- 8. Connect -->
+      <section class="panel panel--connect" id="connect" aria-labelledby="connect-title">
+        <div class="slide">
+          <div class="connect-band">
+            <img class="connect-photo" src="/assets/img/site/connect.webp" width="2172" height="724" loading="lazy"
+                 alt="A packed arena watches Bill Russell of the Celtics leap to block a shot under the basket.">
+            <h2 class="connect-title" id="connect-title">Connect</h2>
+            <!-- Russell's hand and forearm sit in front of the word. -->
+            <img class="connect-photo connect-hand" src="/assets/img/site/connect-hand.webp" width="2172" height="724" loading="lazy" alt="" aria-hidden="true">
+          </div>
+          <div class="connect-row">
+            <p class="connect-name">Pete Scanlon</p>
+            <p class="connect-mail"><span class="connect-invite">Get in touch</span>
+              <a href="mailto:pete@instead.studio">pete@instead.studio</a></p>
+            <p><a href="https://www.linkedin.com/in/petescanlon" rel="noopener">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Shared-element illusion: “collective memory” grows into the title -->
+  <div class="cm-flyer" aria-hidden="true"><span class="cm-flyer-title"><span>Collective</span> <span>Memory</span></span></div>
+
+  <dialog class="private" id="private-dialog" aria-labelledby="private-title">
+    <button class="private-close" type="button" aria-label="Close">×</button>
+    <p class="private-project" id="private-project"></p>
+    <h2 class="private-title" id="private-title">Project is private</h2>
+    <form class="private-form" autocomplete="off" novalidate>
+      <label for="private-password">Password</label>
+      <input id="private-password" name="private-password" type="password" autocomplete="off"
+             data-1p-ignore data-lpignore="true" spellcheck="false">
+    </form>
+    <a class="private-next" href="/work/bleacher-report/">Next <span aria-hidden="true">→</span></a>
+  </dialog>
+
+  <script src="/assets/js/manifest.js"></script>
+  <script src="/assets/js/content.js"></script>
+  <script src="/assets/js/memory-config.js"></script>
+  <script src="/assets/js/chrome.js"></script>
+  <script src="/assets/js/journey.js"></script>
+  <script src="/assets/js/memory.js"></script>
+  <script src="/assets/js/home.js"></script>
+</body>
+</html>

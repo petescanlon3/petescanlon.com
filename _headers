@@ -1,0 +1,7 @@
+# Netlify headers (used for drag-and-drop deploys of this folder).
+/assets/img/*
+  Cache-Control: public, max-age=2592000
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
